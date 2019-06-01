@@ -1,0 +1,68 @@
+* {
+    text-align: center;
+}
+
+body {
+    height: 90vh;
+    padding: 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    color: azure;
+}
+
+#main {
+    position: fixed;
+    top: 20vh;
+    color: black;
+}
+
+#principal {
+    background-color: wheat;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: azure;
+}
+
+.contenedor {
+    background-color: brown;
+    padding: 10px;
+}
+
+.bordes {
+    width: 98vw;
+    padding: 10px;
+    background-color: darkgreen;
+    left: 0;
+}
+
+.nombreEdad {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: grid;
+    width: 40em;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+button {
+    width: 9em;
+}
+
+.botones-general {
+    margin-left: auto;
+    margin-right: auto;
+    width: 24em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: #00B7FF;
+}
